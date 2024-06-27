@@ -1,0 +1,74 @@
+
+.updatepage form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.updatepage form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+
+.updatepage form input[type="text"],
+.updatepage form input[type="email"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+.updatepage form button[type="submit"] {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.updatepage form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+
+.updatepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .updatepage form {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .updatepage form {
+        padding: 0.5rem;
+    }
+
+    .updatepage form button[type="submit"] {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+}

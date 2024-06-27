@@ -1,0 +1,109 @@
+.Admindashboard {
+  padding: 1rem;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+}
+
+
+.Admindashboard h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+
+.Admindashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Admindashboard li {
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Admindashboard li strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.Admindashboard li span {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+
+.Admindashboard button {
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.Admindashboard button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+
+.Admindashboard button:nth-child(1) {
+  background-color: #ff4d4d;
+  color: #fff;
+}
+
+.Admindashboard button:nth-child(1):hover {
+  background-color: #d43f3f;
+}
+
+
+.Admindashboard button:nth-child(2) {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.Admindashboard button:nth-child(2):hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  li {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  button {
+      width: 100%;
+      margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  div {
+      padding: 0.5rem;
+  }
+
+  h2 {
+      font-size: 1.5rem;
+  }
+
+  li {
+      padding: 0.5rem;
+  }
+
+  button {
+      padding: 0.5rem;
+      font-size: 0.9rem;
+  }
+}

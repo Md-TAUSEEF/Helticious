@@ -1,0 +1,105 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Container styles */
+  .logincnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .logincnt_right {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Header styles */
+  .logincnt_header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .logincnt_header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Form styles */
+  .loginform {
+    margin-bottom: 15px;
+  }
+  
+  .loginform label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .loginform input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .loginform input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Button styles */
+  .btn9 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .logincnt {
+      padding: 20px;
+    }
+  
+    .logincnt_right {
+      padding: 15px;
+      width: 100%;
+    }
+  
+    .logincnt_header h1 {
+      font-size: 20px;
+    }
+  
+    .loginform input {
+      font-size: 14px;
+    }
+  
+    .btn {
+      font-size: 14px;
+    }
+  }
+  
